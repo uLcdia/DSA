@@ -2,6 +2,7 @@
     "files.associations": {
         "*.json": "jsonc",
         "*.env": "ini",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "stdio.h": "c"
     }
 }
