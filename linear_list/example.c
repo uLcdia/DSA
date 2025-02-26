@@ -183,9 +183,9 @@ int main() {
         int loc = locate(&list, 20);
         printf("Index of 20: %d\n", loc);
 
-        ElemType prev;
-        if (prev(&list, 30, &prev)) {
-            printf("Element prev to 30: %d\n", prev);
+        ElemType prior;
+        if (prev(&list, 30, &prior)) {
+            printf("Element prev to 30: %d\n", prior);
         }
 
         delete(&list, 1, &e);  // Delete element at index 1
