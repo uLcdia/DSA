@@ -2,8 +2,8 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc build active file",
-            "command": "/sbin/gcc",
+            "label": "C/C++: g++ build active file",
+            "command": "/sbin/g++",
             "args": [
                 "-fdiagnostics-color=always",
                 "-Wall",
