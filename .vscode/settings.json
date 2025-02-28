@@ -98,6 +98,8 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "stdbool.h": "c",
+        "limits.h": "c"
     }
 }
