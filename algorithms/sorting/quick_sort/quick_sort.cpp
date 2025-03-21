@@ -12,7 +12,7 @@ public:
 private:
     void quickSort(std::vector<int>& arr, int low, int high) {
         std::cout << "\nquickSort(" << low << ", " << high << ")\n";
-        print_array(arr);
+        utils::print_array(arr);
         if (low < high) {
             // pi is partitioning index
             int pi = partition(arr, low, high);
@@ -59,13 +59,13 @@ private:
 
 int main() {
     QuickSort qs = QuickSort();
-    std::vector<int> arr = generate_random_array<int>(10, 0, 100);
+    std::vector<int> arr = utils::generate_random_array<int>(10, 0, 100);
 
     std::cout << "Before sorting:\n";
-    print_array(arr);
+    utils::print_array(arr);
 
     qs.sort(arr);
 
     std::cout << "\nAfter sorting:\n";
-    print_array(arr);
+    utils::print_array(arr);
 }

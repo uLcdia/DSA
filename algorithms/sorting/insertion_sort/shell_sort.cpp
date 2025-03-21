@@ -10,7 +10,7 @@ void shell_sort(std::vector<T>& arr) {
 
     while (gap > 0) {
         std::cout << "\ngap = " << gap << '\n';
-        print_array(arr);
+        utils::print_array(arr);
 
         for (size_t i = gap; i < n; i++) {
             T current_value = arr[i];
@@ -28,13 +28,13 @@ void shell_sort(std::vector<T>& arr) {
 }
 
 int main() {
-    std::vector<int> arr = generate_random_array<int>(10, 0, 100);
+    std::vector<int> arr = utils::generate_random_array<int>(10, 0, 100);
 
     std::cout << "Before sorting:\n";
-    print_array(arr);
+    utils::print_array(arr);
 
     shell_sort(arr);
 
     std::cout << "\nAfter sorting:\n";
-    print_array(arr);
+    utils::print_array(arr);
 }

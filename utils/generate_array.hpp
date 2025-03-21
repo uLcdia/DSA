@@ -1,8 +1,10 @@
-#ifndef GENERATE_ARRAY_HPP
-#define GENERATE_ARRAY_HPP
+#ifndef UTILS_GENERATE_ARRAY_HPP
+#define UTILS_GENERATE_ARRAY_HPP
 
 #include <random>
 #include <vector>
+
+namespace utils {
 
 template <typename T>
 std::vector<T> generate_random_array(size_t size, T min_value, T max_value) {
@@ -18,4 +20,6 @@ std::vector<T> generate_random_array(size_t size, T min_value, T max_value) {
     return arr;
 }
 
-#endif // GENERATE_ARRAY_HPP
+} // namespace utils
+
+#endif // UTILS_GENERATE_ARRAY_HPP

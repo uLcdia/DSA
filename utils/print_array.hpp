@@ -1,8 +1,10 @@
-#ifndef PRINT_ARRAY_HPP
-#define PRINT_ARRAY_HPP
+#ifndef UTILS_PRINT_ARRAY_HPP
+#define UTILS_PRINT_ARRAY_HPP
 
 #include <iostream>
 #include <vector>
+
+namespace utils {
 
 template <typename T>
 void print_array(const std::vector<T>& arr) {
@@ -13,4 +15,6 @@ void print_array(const std::vector<T>& arr) {
     std::cout << arr[arr.size() - 1] << "]\n";
 }
 
-#endif // PRINT_ARRAY_HPP
+} // namespace utils
+
+#endif // UTILS_PRINT_ARRAY_HPP
