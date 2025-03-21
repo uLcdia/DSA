@@ -1,7 +1,7 @@
 #include <vector>
 #include <iostream>
-#include "../../../utils/print_array.hpp"
-#include "../../../utils/generate_array.hpp"
+#include "utils/print_array.hpp"
+#include "utils/generate_array.hpp"
 
 template <typename T>
 void insertion_sort(std::vector<T>& arr) {

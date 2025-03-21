@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
-#include "../../../utils/print_array.hpp"
-#include "../../../utils/generate_array.hpp"
+#include "utils/print_array.hpp"
+#include "utils/generate_array.hpp"
 
 template <typename T>
 void shell_sort(std::vector<T>& arr) {
