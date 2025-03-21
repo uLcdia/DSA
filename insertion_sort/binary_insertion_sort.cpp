@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include "print_array.hpp"
-#include "generate_array.hpp"
+#include "../utils/print_array.hpp"
+#include "../utils/generate_array.hpp"
 
 template <typename T>
 void binary_insertion_sort(std::vector<T>& arr) {
