@@ -59,7 +59,3 @@ where *x1, x2, x3, ..., xn* are the integers in ascending order.
 *   Correctly removes the first node from the list.
 *   Correctly inserts the removed node back into the list at the appropriate position to ensure the list is sorted in ascending order.
 *   Correctly outputs the integers stored in the sorted list, in ascending order, separated by spaces.
-
-## Link
-
-[GitHub](https://github.com/uLcdia/DSA/tree/main/lab/01/1)
