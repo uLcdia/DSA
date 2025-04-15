@@ -62,4 +62,4 @@ where *x1, x2, x3, ..., xn* are the integers in ascending order.
 
 ## Link
 
-[GitHub](https://github.com/uLcdia/dsa/lab/01/1)
+[GitHub](https://github.com/uLcdia/DSA/tree/main/lab/01/1)
