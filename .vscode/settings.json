@@ -100,6 +100,8 @@
         "valarray": "cpp",
         "variant": "cpp",
         "stdbool.h": "c",
-        "limits.h": "c"
+        "limits.h": "c",
+        "stack": "cpp",
+        "strstream": "cpp"
     }
 }
