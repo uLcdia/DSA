@@ -102,6 +102,7 @@
         "stdbool.h": "c",
         "limits.h": "c",
         "stack": "cpp",
-        "strstream": "cpp"
+        "strstream": "cpp",
+        "queue": "cpp"
     }
 }
