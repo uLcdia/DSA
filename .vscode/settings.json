@@ -103,6 +103,8 @@
         "limits.h": "c",
         "stack": "cpp",
         "strstream": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "flat_map": "cpp",
+        "flat_set": "cpp"
     }
 }
